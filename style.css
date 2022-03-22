@@ -33,6 +33,16 @@ body {
     min-height: 100vh;
 }
 
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html, body {
+        font-size: 50%;
+    }
+    select {
+        font-size: small;
+    }
+}
+
 header {
     font-size: 1.25rem;
 }
