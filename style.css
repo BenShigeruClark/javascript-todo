@@ -34,12 +34,23 @@ body {
 }
 
 /* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
+@media screen and (max-width: 28.75em) {
     html, body {
-        font-size: 50%;
+        font-size: 60%;
+        justify-content: center;
     }
     select {
         font-size: small;
+    }
+
+    .trash-btn:hover {
+        background: #F4A259;
+        color: #BC4B51;
+    }
+    
+    .complete-btn:hover {
+        color: #5b8e7d;
+        background: #F4A259;
     }
 }
 
